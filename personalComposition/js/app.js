@@ -3,12 +3,12 @@ sq = 100;
 
 function setup() {          //canvas size and background color
     createCanvas(800, 600);
-    background(255, 191, 15);
+    background(15, 34, 59);
 }
 
 function draw() {                   // the position and size of the circle as well as the color
     circle(mouseX, mouseY, circ);
-    fill(34, 76, 130);
+    fill(190, 191, 124);
     
 
     square(400, 300, sq);   // the position and size of the square as well as the color
