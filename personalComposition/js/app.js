@@ -16,7 +16,7 @@ function draw() {                   // the position and size of the circle as we
 
     
     if(mouseIsPressed) {        //if statement that declares that if the mouse is pressed, the circle will increase in size by 2
-        circ = circ + 2;
+        circ = circ + 1;
     }
 
 
