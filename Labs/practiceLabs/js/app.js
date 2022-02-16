@@ -1,50 +1,37 @@
-function setup() {
-    createCanvas(800,600);
-    background(128, 112, 122);
-}
+//types of things
+//hamburgers, fries, hotdogs
+//different cost for each 
 
-// rect(30, 20, 55, 55);
-let tvBase = {
-    x: 175,
-    y: 200,
-    width: 450,
-    height: 250,
-    color: "#262525",
-};
+let mealCost = estimateMealCost("fries", 10)
+document.write(mealCost);
 
-let scr = {
-    x: 200,
-    y: 220,
-    width: 400,
-    height: 200,
-    color: "#000000",
-};
+/* This function takes in: the kind of meal and how many were ordered. It returns the cost of that meal(including tax?)*/
 
-// line(30, 20, 85, 75);
-let line = {
-    x: 400,
-    y: 20,
-    x2: 85,
-    y2: 75,
-    color: "#000000",
-};
+function estimateMealCost(type, count) {
+   
+    //assume the cost of the transaction starts at zero
+    let cost = 0;
+    // set a base price for meals at zero
+    let basePrice = 0;
 
-let line2 = {
-    x: 30,
-    y: 20,
-    x1: 85,
-    y2: 75,
-};
+    //change base price based on order kind
+    if(type == "fries") {
+        baseprice = 3.50;
+    }
 
+    if(type == "burger") {
+        basePrice = 6.25;
+    }
 
-function draw() {
+    //calculate total cost 
+    cost = basePrice * count;
 
-    fill(tvBase.color);
-    rect(tvBase.x, tvBase.y, tvBase.width, tvBase.height);
-    
-    fill(scr.color);
-    rect(scr.x, scr.y, scr.width, scr.height);
+    //tax?
+    let tax = cost * .09;
 
-    fill(line.color);
-    line(line.x, line.y, line.x2, line.y2);
-}
+    //add tax on
+    cost = cost + tax;
+
+    //final total 
+    return cost;
+ }
