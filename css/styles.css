@@ -51,7 +51,7 @@ body {
     font-size: 30px;
     font-weight: lighter;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 420px;
     display: flex;
     justify-content: left;
     
@@ -62,7 +62,15 @@ body {
     font-size: 30px;
     font-weight: lighter;
     margin-top: -40px; 
-    margin-left: 1050px;
+    margin-left: 1080px;
+}
+
+.headingThree {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: -30px; 
+    margin-left: 800px;
 }
 
 /* This area is for the assignment links */
@@ -70,14 +78,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 440px;
+    margin-left: 380px;
     margin-top: 10px;
 }
 .lab1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 440px;
+    margin-left: 400px;
     margin-top: 0px;
 }
 
@@ -85,7 +93,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 440px;
+    margin-left: 400px;
     margin-top: 0px;
 }
 
@@ -93,15 +101,31 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 440px;
+    margin-left: 390px;
     margin-top: 0px;
 }
+
+/* .lab4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 395px;
+    margin-top: 0px;
+} */
+
+/* .lect5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 425px;
+    margin-top: 0px;
+} */
 
 .personalComp {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1095px;
+    margin-left: 1120px;
     margin-top: -120px;
 }
 
@@ -109,63 +133,63 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1150px;
+    margin-left: 1175px;
 }
 
 .everLar {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1140px;
+    margin-left: 1160px;
 }
 
 .worldWrap {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1135px;
+    margin-left: 1155px;
 }
 
 .dataDD {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1115px;
+    margin-left: 1125px;
 }
 
 .virtualPet {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1150px;
+    margin-left: 1175px;
 }
 
 .worldWR {
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1095px;
+    margin-left: 1120px;
 }
 
 .peakPixels {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1150px;
+    margin-left: 1180px;
 }
 
 .mcdiv {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1160px;
+    margin-left: 1190px;
 }
 
 .overAndOut {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-weight: lighter;
-    margin-left: 1135px;
+    margin-left: 1160px;
 }
 
 /* This area is for the backgroung image */
