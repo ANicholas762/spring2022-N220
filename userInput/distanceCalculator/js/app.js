@@ -18,6 +18,7 @@ function btnClick() {
   let y2 = document.getElementById("y2");
     let y2txt = y2.value;
 
-    let d = Math.sqrt(x1txt * y1txt + x2txt * y2txt);
-    output.innerHTML = "Distance:" + d;
+    var distance = Math.sqrt(x1txt * y1txt + x2txt * y2txt);
+    console.log(distance);
+    // output.innerHTML = "Distance:" + dist;
 }
