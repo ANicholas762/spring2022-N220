@@ -8,3 +8,9 @@ let buttons = document.getElementById("buttons");
     buttons.style.justifyContent = "space-around";
 
 let city = ["seattle", "new york", "boston"]
+
+function btnClick(city) {
+    let output = document.getElementById("output");
+
+    output.innerHTML = "Index: ";
+}
