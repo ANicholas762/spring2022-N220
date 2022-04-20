@@ -27,6 +27,8 @@ function btnClick() {
         }  
         
      }
+
+    //  if statement to output different prompts depending on the user input
     }
         if (count == 0) {
             output.innerHTML = "No bad words found"
@@ -34,6 +36,7 @@ function btnClick() {
             output.innerHTML = "Bad word found <br> Total bad words: " + count; 
         }
 
+        // sets input back to empty 
         txt.value = "";
     
 }

@@ -22,5 +22,6 @@ function btnClick() {
         }
     });
     
+    // sets input back to empty
     txt.value = "";
 }

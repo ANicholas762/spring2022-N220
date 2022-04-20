@@ -16,19 +16,14 @@ function btnClick() {
     splitValue.forEach(element => {
         console.log(element);
 
+        // calculates the total from the user input and prints the sum and average
         element = parseInt(element);
         sum = sum + element;
 
     });
 
+    // calculates the average and outputs the sum and the average 
         average = sum / splitValue.length;
     output.innerHTML = "Sum: " + sum + " " + "Average:" + average;
-
-    // calculates the total from the user input and prints the sum and average
-    // for(var i = 0; i < num.split; i++) {
-    
-    //     
-
-    // }
     
 }
