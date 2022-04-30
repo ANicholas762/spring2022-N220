@@ -36,7 +36,7 @@ memory_array = function() {
     while(i > 0) {
         let num = Math.floor(Math.random() * (i+1));
         let temp = val[num];
-        val[num] = val[i];
+        let val = val[num] = val[i];
         val[i] = temp;
         }
     
