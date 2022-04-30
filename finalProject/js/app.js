@@ -45,7 +45,7 @@ memory_array = function() {
     //Function to flip card and try to find match
 function flipCard(val) {
 
-    if(card.innerHTML == " " && memory_value.length < 2) {
+    if(card.innerHTML == "" && memory_value.length < 2) {
         card.innerHTML = val;
     
     if(memory_value.length == 0){
