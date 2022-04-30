@@ -32,10 +32,6 @@ let flip;
 // accessing the numbers in the array 
 memory_array = function() {
 
-    var i = val.length;
-    var num;
-     var temp;
-
     //  while loop to randomize the numbers in the array above for the deck of cards
     while(i > 0) {
         let num = Math.floor(Math.random() * (i+1));
@@ -49,7 +45,7 @@ memory_array = function() {
     //Function to flip card and try to find match
 function flipCard(val) {
 
-    if(card.innerHTML == "" && memory_value.length < 2) {
+    if(card.innerHTML == " " && memory_value.length < 2) {
         card.innerHTML = val;
     
     if(memory_value.length == 0){
