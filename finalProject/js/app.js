@@ -81,14 +81,14 @@ function flipCard(val) {
     memory_array = [];
     memory_card = [];
     
-    }
+            }
     
     
-    }
+            }
     
-    }
+        }
     
-    }
+        }
     
     }
     
